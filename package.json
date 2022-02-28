@@ -1,0 +1,25 @@
+{
+  "name": "study-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon --files  ./src/server.ts",
+    "build": "tsc -b",
+    "start": "node ./dist/shared/http/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.6.3",
+    "class-validator": "^0.13.2",
+    "graphql": "^15.3.0",
+    "mongoose": "^6.2.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.5.0",
+    "tsc": "^2.0.4",
+    "type-graphql": "^1.1.1",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}
